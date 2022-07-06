@@ -1,0 +1,17 @@
+#pelicula{
+    margin-left: 500px;
+    margin-top: 60px;
+    
+    
+}
+
+.cardBody{
+    background-color: grey;
+    border-radius: 8px;
+}
+
+.cardFinal{
+    border-radius: 8px;
+    border: 2px solid ;
+    border-color: white;
+}

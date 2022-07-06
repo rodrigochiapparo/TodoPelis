@@ -1,0 +1,47 @@
+html{
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-borroso-oscuro-abstracto-textura-suave-degradado-color-brillante-brillante-sitio-web-patron-banner-h_1258-83456.jpg?t=st=1657039806~exp=1657040406~hmac=6ef01dac3a046395351c08529d1a0732e60749e785e6ee958bb7af55f61df4bf&w=740) !important;
+}
+
+
+.App {
+  text-align: center;
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-borroso-oscuro-abstracto-textura-suave-degradado-color-brillante-brillante-sitio-web-patron-banner-h_1258-83456.jpg?t=st=1657039806~exp=1657040406~hmac=6ef01dac3a046395351c08529d1a0732e60749e785e6ee958bb7af55f61df4bf&w=740) !important;
+
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
