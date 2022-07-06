@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans&family=Righteous&display=swap');
+
+
+
 html{
-  background-image: url(https://img.freepik.com/foto-gratis/fondo-borroso-oscuro-abstracto-textura-suave-degradado-color-brillante-brillante-sitio-web-patron-banner-h_1258-83456.jpg?t=st=1657039806~exp=1657040406~hmac=6ef01dac3a046395351c08529d1a0732e60749e785e6ee958bb7af55f61df4bf&w=740) !important;
+  background: url(https://img.freepik.com/foto-gratis/fondo-borroso-oscuro-abstracto-textura-suave-degradado-color-brillante-brillante-sitio-web-patron-banner-h_1258-83456.jpg?t=st=1657039806~exp=1657040406~hmac=6ef01dac3a046395351c08529d1a0732e60749e785e6ee958bb7af55f61df4bf&w=740) !important;
+
 }
 
 
 .App {
   text-align: center;
   background-image: url(https://img.freepik.com/foto-gratis/fondo-borroso-oscuro-abstracto-textura-suave-degradado-color-brillante-brillante-sitio-web-patron-banner-h_1258-83456.jpg?t=st=1657039806~exp=1657040406~hmac=6ef01dac3a046395351c08529d1a0732e60749e785e6ee958bb7af55f61df4bf&w=740) !important;
-
-
+  font-family: 'Righteous', cursive;
 }
 
 .App-logo {

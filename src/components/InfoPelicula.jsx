@@ -4,22 +4,24 @@ import '././infoPelicula.css';
 
 
 export const InfoPelicula = () => {
+    //buscamos el id para dar la informacion
     const { id } = useParams();
     
-    const [detPels, setdetPels] = useState({})
+    const [detallePeli, setDetalle] = useState({})
     const datos= () =>{
    
         fetch(`http://www.omdbapi.com/?apikey=67a6157f&i=${id}`)
         .then(response => response.json())
         .then(data => {
-            
-            setdetPels(data)
+            //Guardo la info aca 
+            setDetalle(data)
             })
     }
+    //Uso este hook para que datos se active solamente cuando lo estan llamando 
     useEffect(() => {
         datos()
-    }, )
-    const {Actors,Country,Title,Poster,Director,Plot,Runtime}= detPels
+    },[]);
+    const {Actors,Country,Title,Poster,Director,Plot,Runtime}= detallePeli
     return (
         <div className='prueba'>
         <div>
